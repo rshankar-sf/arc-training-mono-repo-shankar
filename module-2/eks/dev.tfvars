@@ -1,0 +1,15 @@
+environment               = "dev"
+namespace                 = "arc-iac-sf"
+region                    = "us-east-1"
+project_name              = "training"
+create_node_group         = true
+enabled                   = true
+apply_config_map_aws_auth = true
+kube_data_auth_enabled    = true
+kube_exec_auth_enabled    = true
+kubernetes_namespace      = "eks-cluster"
+kubernetes_version        = "1.28"
+instance_types            = ["t3.medium"]
+desired_size              = 2
+min_size                  = 2
+max_size                  = 4

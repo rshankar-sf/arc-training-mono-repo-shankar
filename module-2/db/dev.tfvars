@@ -1,0 +1,12 @@
+environment                        = "dev"
+namespace                          = "arc-iac-sf"
+region                             = "us-east-1"
+max_capacity                       = 16
+min_capacity                       = 2
+project_name                       = "arc-iac-sf"
+admin_user                         = "arc-iac-administrator"
+admin_password                     = "admin@123456789"
+aurora_cluster_enabled             = true
+aurora_allow_major_version_upgrade = false
+aurora_auto_minor_version_upgrade  = true
+aurora_instance_type               = "db.serverless"

@@ -1,0 +1,5 @@
+region       = "us-east-1"
+environment  = "dev"
+namespace    = "arc-iac-sf"
+project_name = "arc-training"
+client_cidr  = "10.1.0.0/22"

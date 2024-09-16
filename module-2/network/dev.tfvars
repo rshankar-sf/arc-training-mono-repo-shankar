@@ -1,0 +1,15 @@
+environment                    = "dev"
+namespace                      = "arc-iac-sf"
+region                         = "us-east-1"
+availability_zones             = ["us-east-1a", "us-east-1b"]
+vpc_ipv4_primary_cidr_block    = "10.0.0.0/22"
+project_name                   = "arc-iac-sf"
+vpc_endpoints_enabled          = false
+client_vpn_authorization_rules = []
+direct_connect_enabled         = false
+interface_vpc_endpoints        = {}
+gateway_vpc_endpoints          = {}
+client_vpn_enabled             = false
+vpn_gateway_enabled            = false
+custom_subnets_eanbled         = true
+custom_nat_gateway_enabled     = true
