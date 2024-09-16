@@ -1,0 +1,5 @@
+region        = "us-east-1"
+bucket_name   = "shankar-terraform-statefile"
+dynamodb_name = "shankar-state-lock"
+project_name  = "arc-iac-sf"
+environment   = "dev"
